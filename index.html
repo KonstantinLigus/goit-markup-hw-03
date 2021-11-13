@@ -36,7 +36,7 @@
         <!-- Телефон и e-mail -->
         <ul class="list tel-mail-container">
           <li>
-            <a href="mailto:info@devstudio.com" class="link mail-tel-color">info@devstudio</a>
+            <a href="mailto:info@devstudio.com" class="link mail-tel-color">info@devstudio.com</a>
           </li>
           <li><a href="tel:+380961111111" class="link mail-tel-color">+380 961 111 111</a></li>
         </ul>
@@ -48,12 +48,14 @@
     <main>
       <!-- Заголовок страницы -->
       <section class="hero">
+        <div class="hero-container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Особенности компаниии -->
       <section class="advantages">
-        <div class="advantages-conteiner">
+        <div class="container">
         <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="advantages-set list">
 
@@ -84,58 +86,66 @@
               Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
           </li>
+
         </ul>
         </div>
              </section>
 
       <!-- Чем мы занимаемся -->
-      <section>
+      <section class="our-work">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <div class="container">
+        <ul class="our-work-set list">
+          <li class="our-work-item">
             <img src="./images/computer-and-tablet-1.jpg" alt="computer and tablet" width="370" />
           </li>
-          <li>
+
+          <li class="our-work-item">
             <img
               src="./images/computer-and-smartphone-1.jpg"
               alt="computer and smartphone"
               width="370"
             />
-          </li>
-          <li>
+          </li >
+
+          <li class="our-work-item">
             <img src="./images/computer-and-tablet-2.jpg" alt="computer and tablet" width="370" />
           </li>
+
         </ul>
+        </div>
       </section>
 
       <!-- Наша команда -->
       <section class="our-team">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <div class="container">
+        <ul class="our-team-set list">
+          <li class="our-team-item">
             <img src="./images/Игорь-Демьяненко.jpg" alt="фото Игорь Демьяненко" width="270" />
             <h3 class="our-team-title">Игорь Демьяненко</h3>
             <p class="our-team-text">Product Desi gner</p>
           </li>
 
-          <li>
+          <li class="our-team-item">
             <img src="./images/Ольга-Репина.jpg" alt="фото Ольга Репина" width="270" />
             <h3 class="our-team-title">Ольга Репина</h3>
             <p class="our-team-text">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="our-team-item">
             <img src="./images/Николай-Тарасов.jpg" alt="фото Николай Тарасов" width="270" />
             <h3 class="our-team-title">Николай Тарасов</h3>
             <p class="our-team-text">Marketing</p>
           </li>
 
-          <li>
+          <li class="our-team-item">
             <img src="./images/Михаил-Ермаков.jpg" alt="фото Михаил Ермаков" width="270" />
             <h3 class="our-team-title">Михаил Ермаков</h3>
             <p class="our-team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
@@ -147,6 +157,7 @@
       <!-- Адрес -->
       <address>
         <ul class="list">
+
           <li>
             <a
               href="https://goo.gl/maps/mUnxRLxeDmvpBzua8"
@@ -155,8 +166,11 @@
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
+
           <li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio</a></li>
+
           <li><a href="tel:+380961111111" class="footer-link">+380 961 111 111</a></li>
+
         </ul>
       </address>
     </footer>
