@@ -37,6 +37,7 @@ li {
 }
 img {
   display: block;
+  /* min-width: 100%; */
 }
 
 /* Header */
@@ -53,11 +54,13 @@ img {
   display: flex;
   margin-left: auto;
 }
-.nav-container > .nav-item:not(:last-child) {
-  margin-right: 50px;
+.nav-container > .nav-item:not(:first-child) {
+  margin-left: 50px;
 }
 .header {
-  /* width: 1600px; */
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--header-hero-color);
 }
 .logo {
@@ -100,6 +103,16 @@ img {
 
 /* Hero */
 .hero {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 200px 0;
+  background-color: var(--footer-hero-bg-color);
+}
+.hero-title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -107,21 +120,50 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--header-hero-color);
-  background-color: var(--footer-hero-bg-color);
 }
 .hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 0;
+  width: 200px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* display: flex; */
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--header-hero-color);
   background-color: var(--text-third-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Особенности компаниии */
+.advantages {
+  padding-left: 15px;
+  margin-top: 94px;
+}
+.advantages-conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantages-set {
+  display: flex;
+  margin: 0;
+  margin-right: -30px;
+  /* flex-wrap: wrap; */
+  /* width: 1200px; */
+}
+.advantages-item {
+  flex-basis: calc(100% / 4 - 30px);
+  outline: solid 1px coral;
+  margin-right: 30px;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
