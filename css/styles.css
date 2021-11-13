@@ -1,0 +1,181 @@
+/* 
+font-family: 'Roboto', sans-serif; (Основной шрифт страницы)
+font-style: normal; (Основной стиль шрифта страницы)
+color: #757575; (Первый цвет шрифта)
+color: #212121; (Второй цвет шрифта)
+color: #2196F3; (Третий цвет шрифта)
+background-color: #FFFFFF; (header)
+background-color: #2F303A; (секция Заголовок страницы)
+background-color: #E5E5E5; (секции Особенности компаниии, Чем мы занимаемся)
+background-color: #F5F4FA; (секция Наша команда)
+background: #2F303A; (Футер)
+*/
+/* Studio */
+:root {
+  --header-hero-color: #ffffff;
+  --text-fifth-color: #ffffff;
+  --footer-hero-bg-color: #2f303a;
+  --text-first-color: #757575;
+  --text-second-color: #212121;
+  --text-third-color: #2196f3;
+  --text-fourth-color: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-first-color);
+}
+.header {
+  background-color: var(--header-hero-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--text-second-color);
+}
+.logo-accent {
+  color: var(--text-third-color);
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-second-color);
+}
+.current {
+  color: var(--text-third-color);
+}
+.link:hover,
+.link:focus,
+.footer-link:hover,
+.footer-link:focus,
+.logo:hover,
+.logo:focus {
+  color: var(--text-third-color);
+}
+.mail-tel-color {
+  color: var(--text-first-color);
+}
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-hero-color);
+  background-color: var(--footer-hero-bg-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--header-hero-color);
+  background-color: var(--text-third-color);
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-second-color);
+}
+.advantages-text,
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-second-color);
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team-title,
+.our-team-text,
+.exemples-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-second-color);
+}
+.our-team-text {
+  font-weight: 400;
+  color: var(--text-first-color);
+}
+.footer {
+  background-color: var(--footer-hero-bg-color);
+}
+.footer-link {
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--text-first-color);
+}
+.address {
+  color: var(--text-fifth-color);
+}
+.logo-accent-studio {
+  color: var(--text-fifth-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style: none;
+}
+
+/* Portfolio */
+
+.exemples-button {
+  font-family: inherit;
+  font-style: normal;
+  cursor: pointer;
+  line-height: 1.63;
+  background-color: var(--text-fourth-color);
+}
+.exemples-button:hover {
+  color: var(--text-fourth-color);
+  background-color: var(--text-third-color);
+}
+.galery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-second-color);
+}
+.galery-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-first-color);
+}
