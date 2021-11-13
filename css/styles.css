@@ -45,6 +45,7 @@ img {
 .logo-nav-tel-mail-container {
   display: flex;
   width: 1600px;
+  border-bottom: 1px solid #ececec;
   margin-right: auto;
   margin-left: auto;
   padding: 25px 215px;
