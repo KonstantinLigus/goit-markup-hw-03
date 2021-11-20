@@ -141,14 +141,13 @@ nav {
 
 /* Hero */
 .hero {
+  max-width: 1600px;
   padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--footer-hero-bg-color);
 }
-.hero-container {
-  max-width: 1600px;
-  /* margin-left: auto;
-  margin-right: auto; */
-}
+
 .hero-title {
   width: 700px;
   margin-bottom: 30px;
