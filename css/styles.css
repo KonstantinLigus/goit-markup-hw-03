@@ -141,7 +141,7 @@ nav {
 
 /* Hero */
 .hero {
-  /* width: 1600px; */ /* Нужно ли здесь давать ширину или в контейнере? */
+  max-width: 1600px;
   padding: 200px 0;
   background-color: var(--footer-hero-bg-color);
 }
